@@ -7,13 +7,13 @@
 <i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:3000/
 <i> [webpack-dev-server] Content not from webpack is served from './public' directory
 Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
-asset bundle.js 1.52 MiB [emitted] (name: main)
+asset bundle.js 1.53 MiB [emitted] (name: main)
 asset index.html 1.98 KiB [emitted]
 runtime modules 27.5 KiB 14 modules
-cacheable modules 1.35 MiB
+cacheable modules 1.36 MiB
   modules by path ./node_modules/ 1.24 MiB 31 modules
-  modules by path ./src/ 101 KiB
-    modules by path ./src/components/*.js 81.8 KiB 12 modules
+  modules by path ./src/ 107 KiB
+    modules by path ./src/components/*.js 87 KiB 13 modules
     modules by path ./src/*.css 12.6 KiB 6 modules
     modules by path ./src/*.js 7.02 KiB
       ./src/index.js 530 bytes [built] [code generated]
@@ -22,195 +22,16 @@ cacheable modules 1.35 MiB
     modules by path ./.ve/*.js 10.6 KiB 2 modules
     modules by path ./.ve/*.css 2.93 KiB 2 modules
     ./.ve/EditorOverlay.jsx 1.58 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 1427 ms
+webpack 5.99.9 compiled successfully in 1408 ms
 assets by status 1.98 KiB [cached] 1 asset
 assets by path *.js 1.54 MiB
   asset bundle.js 1.53 MiB [emitted] (name: main)
-  asset main.3568c5251d214798b20c.hot-update.js 15.8 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.3568c5251d214798b20c.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.54 MiB = bundle.js 1.53 MiB main.3568c5251d214798b20c.hot-update.js 15.8 KiB
-cached modules 1.35 MiB [cached] 55 modules
+  asset main.234b2246ef3680dee009.hot-update.js 13 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.234b2246ef3680dee009.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.54 MiB = bundle.js 1.53 MiB main.234b2246ef3680dee009.hot-update.js 13 KiB
+cached modules 1.35 MiB [cached] 56 modules
 runtime modules 27.5 KiB 14 modules
-javascript modules 11.4 KiB
-  ./src/components/GoalsSection.js 10.3 KiB [built] [code generated]
-  ./src/components/integrationHelpers.js 1.13 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 179 ms
-assets by status 1.98 KiB [cached] 1 asset
-assets by path *.js 1.52 MiB
-  asset bundle.js 1.52 MiB [emitted] (name: main)
-  asset main.5bf9807734e3c16d1113.hot-update.js 6.54 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.5bf9807734e3c16d1113.hot-update.json 68 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.52 MiB = bundle.js 1.52 MiB main.5bf9807734e3c16d1113.hot-update.js 6.54 KiB
-cached modules 1.34 MiB [cached] 54 modules
-runtime modules 27.5 KiB 14 modules
-javascript modules 6.54 KiB
-  ./src/App.js 6.5 KiB [code generated]
-  ./src/components/GoalsSection.js 39 bytes [built] [code generated] [1 error]
-
-ERROR in ./src/components/GoalsSection.js
-Module build failed (from ./node_modules/babel-loader/lib/index.js):
-SyntaxError: /home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/src/components/GoalsSection.js: Identifier 'getApiIntegration' has already been declared. (40:9)
-
-  38 | }
-  39 |
-> 40 | import { getApiIntegration, isApiFeatureEnabled } from "./integrationHelpers";
-     |          ^
-  41 |
-  42 | /**
-  43 |  * Helper to fetch a plan from OpenAI API using the stored key.
-    at constructor (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:363:19)
-    at JSXParserMixin.raise (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:6609:19)
-    at ScopeHandler.checkRedeclarationInScope (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:1626:19)
-    at ScopeHandler.declareName (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:1592:12)
-    at JSXParserMixin.declareNameFromIdentifier (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:7538:16)
-    at JSXParserMixin.checkIdentifier (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:7534:12)
-    at JSXParserMixin.checkLVal (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:7475:12)
-    at JSXParserMixin.finishImportSpecifier (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:14184:10)
-    at JSXParserMixin.parseImportSpecifier (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:14341:17)
-    at JSXParserMixin.parseNamedImportSpecifiers (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:14320:36)
-    at JSXParserMixin.parseImportSpecifiersAndAfter (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:14160:37)
-    at JSXParserMixin.parseImport (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:14153:17)
-    at JSXParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:12795:27)
-    at JSXParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:12685:17)
-    at JSXParserMixin.parseModuleItem (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:12662:17)
-    at JSXParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:13235:36)
-    at JSXParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:13228:10)
-    at JSXParserMixin.parseProgram (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:12541:10)
-    at JSXParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:12531:25)
-    at JSXParserMixin.parse (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:14410:10)
-    at parse (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:14444:38)
-    at parser (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
-    at parser.next (<anonymous>)
-    at normalizeFile (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
-    at normalizeFile.next (<anonymous>)
-    at run (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
-    at run.next (<anonymous>)
-    at transform (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/core/lib/transform.js:22:33)
-    at transform.next (<anonymous>)
-    at step (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/gensync/index.js:261:32)
-    at /home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/gensync/index.js:273:13
-    at async.call.result.err.err (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/gensync/index.js:223:11)
- @ ./src/App.js 4:0-53 121:39-51
- @ ./src/index.js 5:0-24 11:32-35
-
-webpack 5.99.9 compiled with 1 error in 40 ms
-assets by status 1.52 MiB [cached] 2 assets
-cached modules 1.35 MiB (javascript) 27.5 KiB (runtime) [cached] 69 modules
-./src/components/GoalsSection.js 39 bytes [built] [1 error]
-
-ERROR in ./src/components/GoalsSection.js
-Module build failed (from ./node_modules/babel-loader/lib/index.js):
-SyntaxError: /home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/src/components/GoalsSection.js: Identifier 'getApiIntegration' has already been declared. (40:9)
-
-  38 | }
-  39 |
-> 40 | import { getApiIntegration, isApiFeatureEnabled } from "./integrationHelpers";
-     |          ^
-  41 |
-  42 | /**
-  43 |  * Helper to fetch a plan from OpenAI API using the stored key.
-    at constructor (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:363:19)
-    at JSXParserMixin.raise (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:6609:19)
-    at ScopeHandler.checkRedeclarationInScope (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:1626:19)
-    at ScopeHandler.declareName (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:1592:12)
-    at JSXParserMixin.declareNameFromIdentifier (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:7538:16)
-    at JSXParserMixin.checkIdentifier (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:7534:12)
-    at JSXParserMixin.checkLVal (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:7475:12)
-    at JSXParserMixin.finishImportSpecifier (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:14184:10)
-    at JSXParserMixin.parseImportSpecifier (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:14341:17)
-    at JSXParserMixin.parseNamedImportSpecifiers (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:14320:36)
-    at JSXParserMixin.parseImportSpecifiersAndAfter (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:14160:37)
-    at JSXParserMixin.parseImport (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:14153:17)
-    at JSXParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:12795:27)
-    at JSXParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:12685:17)
-    at JSXParserMixin.parseModuleItem (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:12662:17)
-    at JSXParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:13235:36)
-    at JSXParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:13228:10)
-    at JSXParserMixin.parseProgram (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:12541:10)
-    at JSXParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:12531:25)
-    at JSXParserMixin.parse (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:14410:10)
-    at parse (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:14444:38)
-    at parser (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
-    at parser.next (<anonymous>)
-    at normalizeFile (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
-    at normalizeFile.next (<anonymous>)
-    at run (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
-    at run.next (<anonymous>)
-    at transform (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/core/lib/transform.js:22:33)
-    at transform.next (<anonymous>)
-    at step (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/gensync/index.js:261:32)
-    at /home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/gensync/index.js:273:13
-    at async.call.result.err.err (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/gensync/index.js:223:11)
- @ ./src/App.js 4:0-53 121:39-51
- @ ./src/index.js 5:0-24 11:32-35
-
-webpack 5.99.9 compiled with 1 error in 26 ms
-assets by status 1.98 KiB [cached] 1 asset
-assets by path *.js 1.52 MiB
-  asset bundle.js 1.52 MiB [emitted] (name: main)
-  asset main.19270664bdb0a441f8d8.hot-update.js 854 bytes [emitted] [immutable] [hmr] (name: main)
-asset main.19270664bdb0a441f8d8.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.52 MiB = bundle.js 1.52 MiB main.19270664bdb0a441f8d8.hot-update.js 854 bytes
-cached modules 1.35 MiB [cached] 55 modules
-runtime modules 27.5 KiB 14 modules
-./src/components/GoalsSection.js 39 bytes [built] [1 error]
-
-ERROR in ./src/components/GoalsSection.js
-Module build failed (from ./node_modules/babel-loader/lib/index.js):
-SyntaxError: /home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/src/components/GoalsSection.js: Identifier 'getApiIntegration' has already been declared. (40:9)
-
-  38 | }
-  39 |
-> 40 | import { getApiIntegration, isApiFeatureEnabled } from "./integrationHelpers";
-     |          ^
-  41 |
-  42 | // Helper to fetch a plan from OpenAI API using the stored key.
-  43 | async function fetchOpenAIBreakdown(exam, apiKey, signal) {
-    at constructor (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:363:19)
-    at JSXParserMixin.raise (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:6609:19)
-    at ScopeHandler.checkRedeclarationInScope (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:1626:19)
-    at ScopeHandler.declareName (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:1592:12)
-    at JSXParserMixin.declareNameFromIdentifier (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:7538:16)
-    at JSXParserMixin.checkIdentifier (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:7534:12)
-    at JSXParserMixin.checkLVal (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:7475:12)
-    at JSXParserMixin.finishImportSpecifier (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:14184:10)
-    at JSXParserMixin.parseImportSpecifier (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:14341:17)
-    at JSXParserMixin.parseNamedImportSpecifiers (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:14320:36)
-    at JSXParserMixin.parseImportSpecifiersAndAfter (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:14160:37)
-    at JSXParserMixin.parseImport (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:14153:17)
-    at JSXParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:12795:27)
-    at JSXParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:12685:17)
-    at JSXParserMixin.parseModuleItem (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:12662:17)
-    at JSXParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:13235:36)
-    at JSXParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:13228:10)
-    at JSXParserMixin.parseProgram (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:12541:10)
-    at JSXParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:12531:25)
-    at JSXParserMixin.parse (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:14410:10)
-    at parse (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/parser/lib/index.js:14444:38)
-    at parser (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
-    at parser.next (<anonymous>)
-    at normalizeFile (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
-    at normalizeFile.next (<anonymous>)
-    at run (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
-    at run.next (<anonymous>)
-    at transform (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/@babel/core/lib/transform.js:22:33)
-    at transform.next (<anonymous>)
-    at step (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/gensync/index.js:261:32)
-    at /home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/gensync/index.js:273:13
-    at async.call.result.err.err (/home/kavia/workspace/code-generation/exammentor-ai-64209-2c93dfa9/exammentor_ai_frontend/node_modules/gensync/index.js:223:11)
- @ ./src/App.js 4:0-53 121:39-51
- @ ./src/index.js 5:0-24 11:32-35
-
-webpack 5.99.9 compiled with 1 error in 48 ms
-assets by status 1.98 KiB [cached] 1 asset
-assets by path *.js 1.54 MiB
-  asset bundle.js 1.53 MiB [emitted] (name: main)
-  asset main.10fae1479f46640c3948.hot-update.js 15.6 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.10fae1479f46640c3948.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.54 MiB = bundle.js 1.53 MiB main.10fae1479f46640c3948.hot-update.js 15.6 KiB
-cached modules 1.34 MiB [cached] 55 modules
-runtime modules 27.5 KiB 14 modules
-javascript modules 16.6 KiB
-  ./src/App.js 6.5 KiB [code generated]
-  ./src/components/GoalsSection.js 10.1 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 80 ms
+javascript modules 8.83 KiB
+  ./src/components/QnAHelperSection.js 5.2 KiB [built] [code generated]
+  ./src/components/openaiQnaHelper.js 3.64 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 134 ms

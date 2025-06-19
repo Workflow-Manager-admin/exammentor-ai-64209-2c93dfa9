@@ -1,9 +1,10 @@
-// PUBLIC_INTERFACE
 import React, { useState, useEffect, useRef } from "react";
+import { fetchGpt4QA } from "./openaiQnaHelper";
+import { getApiIntegration, isApiFeatureEnabled } from "./integrationHelpers";
 
 /**
- * QnAHelperSection: GPT-4 Q&A Helper (mocked).
- * User asks questions, gets (fake) instant answers, chat saved per session.
+ * QnAHelperSection: GPT-4 Q&A Helper (real, using OpenAI if enabled).
+ * User asks questions, gets live GPT-4 answers, chat saved per session.
  */
 
 const QNA_KEY = "mm.gpt4qna-v1";
