@@ -8,6 +8,16 @@ This project provides a minimal React template with a clean, modern UI and minim
 - **Modern UI**: Clean, responsive design with MapMyPrep brand styling
 - **Fast**: Minimal dependencies for quick loading times
 - **Simple**: Easy to understand and modify
+- **! NEW:** Account & API Integrations screen (Settings)
+  - Users can manage/connect API keys for OpenAI and more (future)
+  - Test connection and enable/disable advanced features (Q&A Helper, Goal Breakdown, and more)
+  - All API keys are stored securely in-browser (never uploaded)
+
+## Privacy/Security
+
+- All API credentials are **never** sent to any external server, and are stored securely in the user’s browser localStorage.
+- Connections to third-party APIs (e.g., OpenAI GPT-4) are performed directly from user’s browser only if user has enabled and supplied an API key.
+- This architecture is future-proof for additional third-party APIs; see `AccountSettingsSection.js` and `integrationHelpers.js` for extensibility/documentation.
 
 ## Important Note: Babel Configuration
 
