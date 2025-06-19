@@ -1,11 +1,11 @@
-# Lightweight React Template for KAVIA
+# MapMyPrep-64209-2c93dfa9
 
 This project provides a minimal React template with a clean, modern UI and minimal dependencies.
 
 ## Features
 
 - **Lightweight**: No heavy UI frameworks - uses only vanilla CSS and React
-- **Modern UI**: Clean, responsive design with KAVIA brand styling
+- **Modern UI**: Clean, responsive design with MapMyPrep brand styling
 - **Fast**: Minimal dependencies for quick loading times
 - **Simple**: Easy to understand and modify
 
@@ -47,15 +47,18 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ### Colors
 
-The main brand colors are defined as CSS variables in `src/App.css`:
+The main brand colors for MapMyPrep are defined as CSS variables in `src/App.css` and use a vibrant, colorful palette:
 
 ```css
 :root {
-  --kavia-orange: #E87A41;
-  --kavia-dark: #1A1A1A;
-  --text-color: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --border-color: rgba(255, 255, 255, 0.1);
+  --base-light: #00B8D9;
+  --base-dark: #FF7A59;
+  --secondary: #FFD600;
+  --kavia-violet: #A259FF;
+  --mp-background: linear-gradient(135deg, #B2FEFA 0%, #E0C3FC 100%);
+  --text-color: #232943;
+  --text-secondary: #565994;
+  --border-color: rgba(45, 35, 140, 0.08);
 }
 ```
 
@@ -96,3 +99,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+>>>>>>> REPLACE

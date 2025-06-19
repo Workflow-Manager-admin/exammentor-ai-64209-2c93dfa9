@@ -16,13 +16,14 @@ import DailyRecapSection from "./components/DailyRecapSection";
 // PUBLIC_INTERFACE
 function App() {
   return (
-    <div className="exammentor-dashboard">
+    <div className="mmprep-dashboard">
       {/* Navbar */}
       <nav className="ema-navbar">
         <div className="ema-navbar-inner">
           <div className="ema-logo">
-            <span style={{ color: "var(--accent)", fontWeight: "bold", fontSize: "2rem" }}>▲</span>
-            ExamMentor <span style={{ color: "var(--secondary)" }}>AI</span>
+            <span style={{ color: "var(--accent)", fontWeight: "bold", fontSize: "2rem" }}>📍</span>
+            MapMyPrep
+            <span style={{ color: "var(--secondary)", fontWeight: "600", fontSize: "1.35rem", marginLeft: "0.4rem" }}>AI</span>
           </div>
           <div className="ema-nav-links">
             <a href="#goals" className="ema-nav-link">Goals</a>

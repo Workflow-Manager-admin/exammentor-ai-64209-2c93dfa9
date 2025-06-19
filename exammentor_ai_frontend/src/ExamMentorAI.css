@@ -1,13 +1,13 @@
-/* Custom theme for ExamMentor AI dashboard */
+/* Custom theme for MapMyPrep dashboard */
 :root {
-  --primary: #4A90E2;
-  --secondary: #50E3C2;
-  --accent: #F5A623;
-  --background: #f9fafb;
+  --primary: #00B8D9;
+  --secondary: #FF7A59;
+  --accent: #FFD600;
+  --background: linear-gradient(132deg, #B2FEFA 0%, #E0C3FC 100%);
   --card: #fff;
-  --text: #223046;
-  --text-secondary: #6B7280;
-  --border: #e5e7eb;
+  --text: #1d123c;
+  --text-secondary: #555994;
+  --border: #D6EAF8;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
   color: var(--text);
 }
 
-.exammentor-dashboard {
+.mmprep-dashboard {
   min-height: 100vh;
   background: var(--background);
   padding-top: 72px;
